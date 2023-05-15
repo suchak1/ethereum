@@ -279,6 +279,9 @@ signal.signal(signal.SIGTERM, stop_node)
 
 node.run()
 
+# Use tails usb for security and disconnect ethernet cable
+# ADD SLASHING PROTECTION / during shutdown - jk prysm already has slashing protection db in wallet dir
+
 # Extra:
 # - export metrics / have an easy way to monitor, Prometheus and Grafana Cloud free, node exporter
 # - use spot instances
